@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a0efe8;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.stopwatch {
+    text-align: center;
+    background: #ffffff;
+    position: relative;
+    max-height: fit-content;
+    max-width: fit-content;
+    border: 10px solid;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 3em;
+    color: black;
+    
+}
+
+#display {
+    font-size: 5em;
+    margin: 50px 0;
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startStop {
+    background-color: #28a745;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+#reset {
+    background-color: #dc3545;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+#lap {
+    background-color: #ffc107;
+    color: #ffffff;
+    font-size: 3em;
+}
+
+.laps-container {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.5em;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.lap-time {
+    margin: 5px 0;
+}
