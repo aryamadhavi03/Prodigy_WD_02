@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #a0efe8;
+    background: linear-gradient(135deg, #a0efe8, #fbd6f5);
     margin: 0;
     box-sizing: border-box;
 }
@@ -15,7 +15,7 @@ body {
     position: relative;
     max-height: fit-content;
     max-width: fit-content;
-    border: 10px solid;
+    border: 10px solid #a0efe8;
     padding: 20px;
     margin: 0 auto;
     border-radius: 50px;
@@ -27,7 +27,6 @@ body {
 h1 {
     font-size: 3em;
     color: black;
-    
 }
 
 #display {
@@ -42,24 +41,37 @@ h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s;
 }
 
 #startStop {
-    background-color: #28a745;
+    background: linear-gradient(135deg, #b3ffab, #12fff7);
     color: #ffffff;
     font-size: 3em;
+}
+
+#startStop:hover {
+    background: linear-gradient(135deg, #12fff7, #b3ffab);
 }
 
 #reset {
-    background-color: #dc3545;
+    background: linear-gradient(135deg, #ff9a9e, #fecfef);
     color: #ffffff;
     font-size: 3em;
 }
 
+#reset:hover {
+    background: linear-gradient(135deg, #fecfef, #ff9a9e);
+}
+
 #lap {
-    background-color: #ffc107;
+    background: linear-gradient(135deg, #f6d365, #fda085);
     color: #ffffff;
     font-size: 3em;
+}
+
+#lap:hover {
+    background: linear-gradient(135deg, #fda085, #f6d365);
 }
 
 .laps-container {
